@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Safy | Welcome</title>  
+  <meta name="description" content="Welcome Page">
+  <meta name="keywords" content="safy travel, expensive travel, travel safe, safe holidays, secure holidays and expensive">
+	<meta name="copyright" content="Safy">
+	<meta name="author" content="Victor Reyes">
+  <!-- <link rel="icon" href="./images/favicon.ico" type="image/x-icon"> -->
+  <link rel="stylesheet"  type="text/css" href="css/style.css" media="screen"/>
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Droid+Sans|Droid+Serif|Roboto" rel="stylesheet">
+</head>
+
+<body id="testing" onload="sliderDotActive('1')">
+
+  <header class="header header--desktop-width" id="jsHeaderHeight">
+    <div class="header-icons">
+      <div class="header-icons-img">
+        <img src="assets/icon-fb.png" alt="Facebook Icon" class="icons">
+        <img src="assets/icon-twitter.png" alt="Twitter Icon" class="icons">
+      </div>
+    </div>
+    <div class="header-part2">
+      <div class="header-menu">
+        <div class="header-menu__logo">
+          <img src="assets/logo.png" alt="Logo" class="header-menu__logo-img">
+        </div>
+
+        <nav class="menu">
+          <ul>
+              <li id="home"><a href="" class="">Home</a></li>
+              <li id="book"><a href="" class="">Book</a>
+                <img src="assets/arrow-sub-menu.png" alt="Arrow Down" class="arrow-submenu">
+                <ul class="sub-menu" >
+                <li><a href="#link">Urgent</a></li>
+                <li><a href="#link">Group</a></li>
+                <li><a href="#link">Trek</a></li>
+              </ul>
+            </li>
+              <li id="dest"><a href="" class="">Destinations</a>
+                <img src="assets/arrow-sub-menu.png" alt="Arrow Down" class="arrow-submenu">
+                <ul class="sub-menu" >
+                <li id="dest-tablet"><a href="#link">France</a></li id="dest">
+                <li id="dest-tablet"><a href="#link">Brazil</a></li id="dest">
+                <li id="dest-tablet"><a href="#link">Algeria</a></l id="dest"i>
+              </ul>
+            </li>
+              <li id="price"><a href="" class="">Prices</a></li>
+              <li id="alert"><a href="" class="">Alerts</a></li>
+              <li id="contact"><a href="" class="">Contact</a></li>
+            </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <div class="slider">
+    <div class="slider-width">
+      <div class="slider-items">
+
+        <div class="slider-items-container">
+
+          <div class="slider-items-slide">
+            <div class="slider-items__textbox">
+              <a class="slider-items__textbox__text">Tips to travel around the world !</a>
+            </div>
+            <img src="assets/slider-1.jpg" alt="Presentation Pictures" class="slider-items__img" id="slider-img-1">
+            <img src="assets/slider-2.jpg" alt="Presentation Pictures" class="slider-items__img" id="slider-img-2">
+            <img src="assets/slider-3.jpg" alt="Presentation Pictures" class="slider-items__img" id="slider-img-3">
+            <img src="assets/slider-4.jpg" alt="Presentation Pictures" class="slider-items__img" id="slider-img-4">
+            <img src="assets/slider-5.jpg" alt="Presentation Pictures" class="slider-items__img" id="slider-img-5">
+            <img src="assets/slider-6.jpg" alt="Presentation Pictures" class="slider-items__img" id="slider-img-6">
+          </div>
+          <div class="slider-items__arrow">
+            <a class="slider-items__left-arrow" id="arrow-img-left" onclick="arrow('left')"></a>
+            <a class="slider-items__right-arrow" id="arrow-img-right" onclick="arrow('right')"></a>
+          </div>
+        </div>
+
+        <div class="slider-items__dots">
+          <a href="#slider-img-1" onclick="sliderDotActive('1')" id="dot-1"></a>
+          <a href="#slider-img-2" onclick="sliderDotActive('2')" id="dot-2"></a>
+          <a href="#slider-img-3" onclick="sliderDotActive('3')" id="dot-3"></a>
+          <a href="#slider-img-4" onclick="sliderDotActive('4')" id="dot-4"></a>
+          <a href="#slider-img-5" onclick="sliderDotActive('5')" id="dot-5"></a>
+          <a href="#slider-img-6" onclick="sliderDotActive('6')" id="dot-6"></a>
+        </div>
+       </div>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="content-width">
+      <div class="content-top">
+        <div class="content__block-row">
+          
+          <div id="single-block-margin-right" class="content__single-block">
+            <div class="content__single-block__title" id="fire-block">
+              <div class="content__single-block__title__img">
+                <img src="assets/13.png" alt="Fire Icon">
+              </div>
+              <div class="content__single-block__title_text">
+                <p>Safe, structured and amazing application</p>
+              </div>
+            </div>
+            <div class="content__single-block__text">
+              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque id ligula ipsum vulputate volutpat at ut misi. Aliquam erat volutpat. Maecenas pretium dolor vitae lectus fermentum convallis bibendum in erat. Donec vitare risus non lorem volutpat fringilla in in metus. Aenean quis eros diam. Proin porta quam at neque congue iaculis.</p>
+              <a href="">more info</a>
+            </div>
+          </div>
+
+          <div id="single-block-margin-right" class="content__single-block">
+            <div class="content__single-block__title" id="tent-block">
+              <div class="content__single-block__title__img">
+                <img src="assets/17.png" alt="Fire Icon" id="tent-icon-img">
+              </div>
+              <div class="content__single-block__title_text">
+                <p>The sun is shining today, book your trip</p>
+              </div>
+            </div>
+            <div class="content__single-block__text">
+              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque id ligula ipsum vulputate volutpat at ut misi. Aliquam erat volutpat. Maecenas pretium dolor vitae lectus fermentum convallis bibendum in erat. Donec vitare risus non lorem volutpat fringilla in in metus. Aenean quis eros diam. Proin porta quam at neque congue iaculis.</p>
+              <a href="">more info</a>
+            </div>
+          </div>
+
+          <div class="content__single-block">
+            <div class="content__single-block__title" id="paw-block">
+              <div class="content__single-block__title__img">
+                <img src="assets/12.png" alt="Fire Icon" id="paw-icon-img">
+              </div>
+              <div class="content__single-block__title_text">
+                <p>Meet new people and live more intensely</p>
+              </div>              
+            </div>
+            <div class="content__single-block__text">
+              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque id ligula ipsum vulputate volutpat at ut misi. Aliquam erat volutpat. Maecenas pretium dolor vitae lectus fermentum convallis bibendum in erat. Donec vitare risus non lorem volutpat fringilla in in metus. Aenean quis eros diam. Proin porta quam at neque congue iaculis.</p>
+              <a href="">more info</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="content-bottom">
+        <div class="content-bottom__title">
+          <p>Destinations</p>
+        </div>
+        <div class="content-bottom_row">
+          <div class="content-bottom__countryflags">
+            <img src="assets/3.jpg" alt="Country Flag France" class="img-thumbnail" id="img-france">
+            <img src="assets/4.jpg" alt="Country Flag Brazil" class="img-thumbnail" id="img-brazil">
+            <img src="assets/5.jpg" alt="Country Flag Algeria" class="img-thumbnail img-thumbnail--last" id="img-algeria">
+          </div>
+          <div class="content-bottom__countrynames">
+            <p class="countrynames" id="country-name-france">France</p>
+            <p class="countrynames" id="country-name-brazil">Brazil</p>
+            <p class="countrynames--last" id="country-name-algeria">Algeria</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="info">
+    <div class="info-width-top">
+      <div class="info__aboutus">
+        <div class="info__aboutus__title">
+          <p>About Us</p>
+        </div>
+        <div class="info__aboutus__text">
+          <p class="info__aboutus__text--firstparagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus convallis urna a enim convallis a bibdenum lectus scelerisque. Aenean at mauris augue, sed fringilla justo. Proin et porta ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus convallis urna a enim convallis a bibdenum lectus scelerisque. Aenean at mauris augue, sed fringilla justo. Proin et porta ligula. 
+          </p>
+          <p>
+            Quisque malesuada lorem at leo volutpat tristique. Nunc sit amet felis imperdiet ante tincidunt viverra sit amet quis ipsum. Aenean metus urna, placerat ut pharetra id, pharetra eget turpis. Sed blandit nun eget lorem vertibulum malesuada Phasellus convallis urna a enim convallis a bibdenum lectus scelerisque. Aenean at mauris augue, sed fringilla justo. Proin et porta ligula. Quisque malesuada lorem at leo volutpat tristique. Nunc sit amet felis imperdiet ante tincidunt viverra sit amet quis ipsum.
+          </p>
+        </div>
+      </div>
+      <div class="info__whyus">
+        <div class="info__whyus__title">
+          <p>Why Us</p>
+        </div>
+        <div class="info__whyus__content">
+          <div class="info__whyus__content__img--compas">
+            <img src="assets/14.png" alt="Compas Icon">
+          </div>
+          <div class="info__whyus__content__text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus convallis urna a enim convallis a bibdenum lectus scelerisque. Aenean at mauris augue, sed fringilla justo.</p>
+          </div>
+        </div>
+        <div class="info__whyus__content--second">
+          <div class="info__whyus__content__img--map">
+            <img src="assets/15.png" alt="Map Icon">
+          </div>
+          <div class="info__whyus__content__text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus convallis urna a enim convallis a bibdenum lectus scelerisque. Aenean at mauris augue, sed fringilla justo.</p>
+          </div>
+        </div>
+        <div class="info__whyus__content--third">
+          <div class="info__whyus__content__img--bike">
+            <img src="assets/16.png" alt="Bike Icon">
+          </div>
+          <div class="info__whyus__content__text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus convallis urna a enim convallis a bibdenum lectus scelerisque. Aenean at mauris augue, sed fringilla justo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="info-width-bottom">
+      <div class="info__howto">
+        <div class="info__howto__title">
+          <p>How to travel ?</p>
+        </div>
+        <div class="info__howto__text">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus convallis urna a enim convallis a bibdenum lectus scelerisque. Aenean at mauris augue, sed fringilla justo. Proin et porta ligula.</p>
+        </div>
+        <button class="info__howto__btn-subscribe">Subscribe</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <footer class="footer-width">
+      <div class="footer__sub-menu">
+        <nav class="menu footer-menu">
+          <ul>
+              <li id="home-bottom"><a href="">Home</a></li>
+              <li id="book-bottom"><a href="">Book</a></li>
+              <li id="dest-bottom"><a href="">Destinations</a></li>
+              <li id="price-bottom"><a href="">Prices</a></li>
+              <li id="alert-bottom"><a href
+                ="">Alerts</a></li>
+              <li id="contact-bottom"><a href="">Contact</a></li>
+            </ul>
+        </nav>
+      </div>
+      <div class="footer__copyright">
+        <p>© There is no birds here &nbsp;&nbsp; Look around.</p>
+      </div>
+    </footer>
+  </footer>
+</body>
+<script type="text/javascript" src="js/script.js"></script>
+</html>
